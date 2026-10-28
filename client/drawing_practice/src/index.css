@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+body {
+    background-color: oklch(21.2% 0.019 322.12);
+    color: oklch(92.2% 0.005 325.62);
+}
+
+
+/* Animations */
+@keyframes numberFadeIn {
+    from {transform: scale(0.5); opacity: 50%;}
+    to {transform: scale(1);}
+}
+
+.number-transition {
+    animation: numberFadeIn 1000ms ease-in-out;
+}
+
+@keyframes imgFadeIn {
+    from {transform: scale(0.98); 
+        opacity: 0%;}
+
+    to {transform: scale(1); 
+        opacity: 100%;}
+}
+
+.img-transition {
+    animation: imgFadeIn 500ms ease-in-out;
+}
+
+@keyframes simpleFadeIn {
+    from {opacity: 50%;}
+    to {opacity: 100%;}
+}
+
+.count-start {
+    animation: simpleFadeIn 1000ms;
+}
+
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2a212c;
+    transform-origin: right;
+}
+
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2a212c;
+    transform-origin: left;
+}
+
+/* 
+progress::-webkit-progress-bar {
+    background-color: #ddd;
+}
+
+progress::-webkit-progress-value {
+    background-color: #0891b2;
+}
+
+progress::-moz-progress-bar {
+    background-color: #0891b2;
+} */
