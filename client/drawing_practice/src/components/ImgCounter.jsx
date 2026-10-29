@@ -29,7 +29,7 @@ export default function ImgCounter() {
             </button>
             
             {/* <ClockIcon className='size-12 stroke-mauve-400 p-3'/> */}
-            <p className='p-3 font-medium text-lg text-mauve-400'>Czas czałej sesji: {countTime} min</p>
+            <p className='p-3 font-medium text-lg text-mauve-400'>Whole session: {countTime} min</p>
         </div>
     );
 }

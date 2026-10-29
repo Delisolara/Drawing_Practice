@@ -101,7 +101,7 @@ export default function PracticePage() {
                     </button>
                 </div>
                 {/* Licznik obrazów */}
-                <p className="text-lg font-medium text-mauve-400">Obraz: {currentImg}/{numberImg}</p>
+                <p className="text-lg font-medium text-mauve-400">Image: {currentImg}/{numberImg}</p>
             </div>
 
         </div>

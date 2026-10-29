@@ -3,7 +3,7 @@ import { useImageContext } from "../context/ImageContext";
 export default function TimeBtn() {
     const {selectedTime, setSelectedTime} = useImageContext();
     const timeOptions = [
-        {value: 5, label: "5 s"}, // TEMP
+        // {value: 5, label: "5 s"}, // TEMP
         {value: 30, label: "30 s"},
         {value: 60, label: "60 s"},
         {value: 120, label: "2 min"},

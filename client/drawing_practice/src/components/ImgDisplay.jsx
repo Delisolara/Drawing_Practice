@@ -13,7 +13,7 @@ export default function ImgDisplay() {
     useEffect(() => {    
         if (imageFiles.length === 0 ){
             setImageURL(placeholderImg);
-            setError('> Nie można wylosować obrazu! Wybierz folder ponownie.');
+            setError("> Random image can't be selected. Please select folder again.");
             return;
         }
             
