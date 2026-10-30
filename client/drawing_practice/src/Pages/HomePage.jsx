@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="min-h-screen max-w-6xl bg-mauve-800"> {/* flex items-center */}
         <div className="max-w-3xl mx-auto">
             {/* <p className='text-5xl font-medium mb-9 py-15'>Ćwicz praktyczne rysowanie w czterech krokach!</p> */}
-            <p className='text-5xl font-medium mb-9 py-15'>Drawing Practice</p>
+            <p className='text-5xl font-medium mb-9 py-15'>Prakti Draw</p>
 
             {/* Wybór folderu */}
             <div className="mb-15">
