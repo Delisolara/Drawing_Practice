@@ -1,3 +1,7 @@
+### Environment variables
+.env
+.env.personal
+
 ### NextJS ###
 # dependencies
 /node_modules
@@ -69,4 +73,3 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,react,nextjs

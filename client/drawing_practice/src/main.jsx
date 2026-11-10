@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import './index.css'
 
 import App from './App.jsx'
-import PracticePage from './Pages/PracticePage.jsx'
-import HomePage from './Pages/HomePage';
+import PracticePage from './pages/PracticePage.jsx'
+import HomePage from './pages/HomePage.jsx';
 import { ImageProvider } from './context/ImageContext.jsx'
 
 // const myrouter = createBrowserRouter([

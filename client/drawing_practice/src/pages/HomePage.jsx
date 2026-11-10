@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
+import FolderInput from "../components/FolderInput";
+import CloudInput from "../components/CloudInput";
 import TimeBtn from "../components/TimeBtn";
 import ImgCounter from "../components/ImgCounter";
-import FolderInput from "../components/FolderInput";
 import StartBtn from "../components/StartBtn";
-import MyImg from "../assets/hero.png";
+// import MyImg from "../assets/hero.png";
 
 export default function HomePage() {
 
@@ -27,6 +28,7 @@ export default function HomePage() {
                     <option value="pintrest">Pintrest</option>
                 </select> */}
 
+                {/* <CloudInput/> */}
                 <FolderInput/>
             </div>
 
@@ -51,17 +53,8 @@ export default function HomePage() {
                 {/* Guzik rozpoczynający sesję */}
                 <StartBtn/>
             </div>
-
-            {/* TEPM */}
-            {/* <Link to={"/practice"}>
-            <p className="p-3 font-lg underline">Przeskocz</p>
-            </Link> */}
         </div>
         </div>
-
-        {/* <div className="right-0">
-            <img src={MyImg} className=""/>
-        </div> */}
         </section>
     )
 }

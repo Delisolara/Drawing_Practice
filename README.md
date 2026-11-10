@@ -14,5 +14,4 @@ This project was created for personal use and as a way to practice coding.
 
 - [ ] Artistic design (Y2K techno poster inspired)
 - [ ] Responsive layout
-- [ ] Option to select folder with images from cloud (Google Drive)
-- [ ] Language selection
+- [ ] Option to select folder from Google Drive (at the moment only for personal use)

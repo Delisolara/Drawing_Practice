@@ -3,19 +3,10 @@ import { useState } from 'react'
 import { useLocation, useOutlet } from 'react-router-dom'
 import { AnimatePresence } from 'motion/react'
 
-import HomePage from './Pages/HomePage';
+// import HomePage from './pages/HomePage';
 import PageTransition from './components/PageTransition.jsx'
 
 export default function App() {
-    
-  // return (
-  //   <>
-  //   <div className=''>
-  //     <HomePage/>
-  //   </div>
-  //   </>
-  // );
-
   return <AnimatedOutlet/>;;
 }
 
